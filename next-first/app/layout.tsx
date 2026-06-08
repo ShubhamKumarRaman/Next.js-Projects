@@ -18,10 +18,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <Link href="/contact">Contact</Link>
             <Link href="/dashboard">Dashboard</Link>
             <Link href="/blog">Blog</Link>
+            <Link href="/products">Products</Link>
           </nav>
         </header>
-
-        {children}
+        <main>
+          {children}
+        </main>
         <footer style={{ padding: 12, background: "#a69e9e" }}>
           My Footer
         </footer>
